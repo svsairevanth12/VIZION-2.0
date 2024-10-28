@@ -30,81 +30,100 @@
 
 To set up the Vizion project locally, follow these steps:
 
-1. **Prerequisites**:
-   - Ensure you have Node.js installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
-   - Install Git if you haven't already.
+### Prerequisites
 
-2. **Clone the Repository**:
-   Open your terminal and run:
-   ```bash
-   git clone https://github.com/svsairevanth12/VIZION-2.0.git
-Navigate to the Project Directory:
+- Ensure you have Node.js installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
+- Install Git if you haven't already.
 
-bash
-Copy code
+### Clone the Repository
+
+Open your terminal and run:
+```bash
+git clone https://github.com/svsairevanth12/VIZION-2.0.git
+```
+
+### Navigate to the Project Directory
+
+```bash
 cd VIZION-2.0
-Install Dependencies: Run the following command to install all necessary packages:
+```
 
-bash
-Copy code
+### Install Dependencies
+
+Run the following command to install all necessary packages:
+```bash
 npm install
-Run the Application: Start the application by executing:
+```
 
-bash
-Copy code
+### Run the Application
+
+Start the application by executing:
+```bash
 npm start
-The application will typically be accessible at http://localhost:3000.
+```
+The application will typically be accessible at `http://localhost:3000`.
 
-Usage Guidelines
+## Usage Guidelines
+
 Once the application is running:
 
-Open your browser and navigate to http://localhost:3000.
-Explore the various features available in the application.
-Follow any on-screen prompts or tutorials to get familiar with the functionality.
-API Documentation (if applicable)
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Explore the various features available in the application.
+3. Follow any on-screen prompts or tutorials to get familiar with the functionality.
+
+## API Documentation (if applicable)
+
 If your project includes APIs, document them here:
 
-GET /api/data: Retrieves data for visualization.
-Request Example:
-http
-Copy code
-GET /api/data
-Response Example:
-json
-Copy code
-{
-  "data": [
-    {"id": 1, "value": "Sample Data 1"},
-    {"id": 2, "value": "Sample Data 2"}
-  ]
-}
-Deployment Instructions
+- **GET /api/data**: Retrieves data for visualization.
+  - **Request Example**:
+    ```http
+    GET /api/data
+    ```
+  - **Response Example**:
+    ```json
+    {
+      "data": [
+        {"id": 1, "value": "Sample Data 1"},
+        {"id": 2, "value": "Sample Data 2"}
+      ]
+    }
+    ```
+
+## Deployment Instructions
+
 To deploy the Vizion application:
 
-Build the application for production:
-bash
-Copy code
-npm run build
-Deploy using a service like Netlify or Vercel by following their deployment guides.
-Contribution Guidelines
+1. Build the application for production:
+   ```bash
+   npm run build
+   ```
+2. Deploy using a service like Netlify or Vercel by following their deployment guides.
+
+## Contribution Guidelines
+
 We welcome contributions! To contribute to the Vizion project:
 
-Fork the repository on GitHub.
-Create a new branch for your feature or fix.
-Make your changes and commit them.
-Push your branch to your forked repository.
-Create a pull request describing your changes.
-License Information
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request describing your changes.
+
+## License Information
+
 This project is licensed under the MIT License. See the LICENSE file in the repository for details.
 
-About Section
-Developers: The Vizion project was developed by Gen Hacktivists.
-Contact Information: For any inquiries or support, please reach out via:
-Email:
+## About Section
 
-Revanth S: 22f21a05a9@gatesit.ac.in
-Tilak G: 23f21a3157@gatesit.ac.in
-Visit our website at Vizion for more information.
+- **Developers**: The Vizion project was developed by Gen Hacktivists.
+- **Contact Information**: For any inquiries or support, please reach out via:
+  - **Email**:
+    - Revanth S: [22f21a05a9@gatesit.ac.in](mailto:22f21a05a9@gatesit.ac.in)
+    - Tilak G: [23f21a3157@gatesit.ac.in](mailto:23f21a3157@gatesit.ac.in)
 
-Conclusion
+- Visit our website at [Vizion](https://vizion2.netlify.app/) for more information.
+
+## Conclusion
+
 Thank you for using Vizion! We hope this documentation helps you effectively navigate and utilize our application. For further assistance, please feel free to contact us.
