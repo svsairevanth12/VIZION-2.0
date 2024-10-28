@@ -71,7 +71,7 @@ Once the application is running:
 2. Explore the various features available in the application.
 3. Follow any on-screen prompts or tutorials to get familiar with the functionality.
 
-## API Documentation (if applicable)
+## API Documentation
 
 If your project includes APIs, document them here:
 
