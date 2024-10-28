@@ -1,4 +1,4 @@
-# Documentation for the Vizion Project
+# Documentation for the Vizion 
 
 ## Project Overview
 
