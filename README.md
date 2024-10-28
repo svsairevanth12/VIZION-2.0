@@ -1,36 +1,43 @@
-Documentation for the Vizion Project
-Project Overview
-Project Name: Vizion
-Description: Vizion is a web application designed to provide users with a chatbot that combines image recognition with conversational AI, enabling users to receive information about images through natural language interactions. This documentation serves as a comprehensive guide for users to understand, install, and utilize the application effectively.
-Features
-User-Friendly Interface: Intuitive design for easy navigation.
-Real-Time Data Updates: Dynamic updates to ensure users have the latest information.
-Responsive Design: Optimized for both desktop and mobile devices.
-Customizable Settings: Users can tailor their experience according to their preferences.
-Accessibility Features:
-Voice Input: Speak your questions naturally using the built-in speech recognition feature.
-Text-to-Speech: Listen to AI responses with high-quality text-to-speech synthesis.
-Multilingual Support:
-Process Queries in Multiple Languages: The AI model understands and analyzes images across various languages, making it accessible to users worldwide.
-Detailed Analysis in Preferred Language: Provides insights in the user’s language of choice.
-Cultural Context Handling: Capable of dealing with complex visual concepts across cultural contexts.
-Technologies Used
-Frontend: React.js
-Backend: Node.js, Express
-Database: MongoDB
-Other Tools: Redux for state management, Axios for API calls
-Installation Instructions
+# Documentation for the Vizion Project
+
+## Project Overview
+
+- **Project Name**: Vizion
+- **Description**: Vizion is a web application designed to provide users with a chatbot that combines image recognition with conversational AI, enabling users to receive information about images through natural language interactions. This documentation serves as a comprehensive guide for users to understand, install, and utilize the application effectively.
+
+## Features
+
+- **User-Friendly Interface**: Intuitive design for easy navigation.
+- **Real-Time Data Updates**: Dynamic updates to ensure users have the latest information.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Customizable Settings**: Users can tailor their experience according to their preferences.
+- **Accessibility Features**:
+  - **Voice Input**: Speak your questions naturally using the built-in speech recognition feature.
+  - **Text-to-Speech**: Listen to AI responses with high-quality text-to-speech synthesis.
+- **Multilingual Support**: 
+  - **Process Queries in Multiple Languages**: The AI model understands and analyzes images across various languages, making it accessible to users worldwide.
+  - **Detailed Analysis in Preferred Language**: Provides insights in the user’s language of choice.
+  - **Cultural Context Handling**: Capable of dealing with complex visual concepts across cultural contexts.
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Other Tools**: Redux for state management, Axios for API calls
+
+## Installation Instructions
+
 To set up the Vizion project locally, follow these steps:
 
-Prerequisites:
+1. **Prerequisites**:
+   - Ensure you have Node.js installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
+   - Install Git if you haven't already.
 
-Ensure you have Node.js installed on your machine. You can download it from Node.js official website.
-Install Git if you haven't already.
-Clone the Repository: Open your terminal and run:
-
-bash
-Copy code
-git clone https://github.com/svsairevanth12/VIZION-2.0.git
+2. **Clone the Repository**:
+   Open your terminal and run:
+   ```bash
+   git clone https://github.com/svsairevanth12/VIZION-2.0.git
 Navigate to the Project Directory:
 
 bash
@@ -100,4 +107,4 @@ Tilak G: 23f21a3157@gatesit.ac.in
 Visit our website at Vizion for more information.
 
 Conclusion
-Thank you for using Vizion! We hope this documentation helps you effectively navigate and utilize our application. For further assistance, please feel free to contact us. 
+Thank you for using Vizion! We hope this documentation helps you effectively navigate and utilize our application. For further assistance, please feel free to contact us.
